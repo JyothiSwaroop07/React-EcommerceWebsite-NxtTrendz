@@ -1,0 +1,26 @@
+.products-image {
+    width: 40vw;
+    height: auto;
+  }
+  .bg-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .products-image {
+      width: 15vw;
+      height: auto;
+    }
+    .bg-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 50px;
+    }
+  }
+  
