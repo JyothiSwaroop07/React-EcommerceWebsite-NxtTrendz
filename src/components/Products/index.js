@@ -1,22 +1,18 @@
-import {Component} from 'react'
+import PrimeDealsSection from '../PrimeDealsSection'
+import AllProductsSection from '../AllProductsSection'
+
 import Header from '../Header'
+
 import './index.css'
 
-class Products extends Component {
-  render() {
-    return (
-      <>
-        <Header />
-        <div className="bg-container">
-          <img
-            src="https://assets.ccbp.in/frontend/react-js/nxt-trendz-products-img.png"
-            className="products-image"
-            alt="products"
-          />
-        </div>
-      </>
-    )
-  }
-}
+const Products = () => (
+  <>
+    <Header />
+    <div className="product-sections">
+      <PrimeDealsSection />
+      <AllProductsSection />
+    </div>
+  </>
+)
 
 export default Products
